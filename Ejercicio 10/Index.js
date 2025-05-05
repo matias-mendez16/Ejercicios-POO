@@ -1,0 +1,41 @@
+"use strict";
+/*
+    Index donde se importan la clase Auto y la clase RegistroAutomotor
+*/
+Object.defineProperty(exports, "__esModule", { value: true });
+var Auto_1 = require("../Ejercicio 1/Auto");
+var RegistroAutomotor_1 = require("./RegistroAutomotor");
+var auto1 = new Auto_1.Auto("Peugeot", "207", 1994, "ABC123");
+var auto2 = new Auto_1.Auto("Ford", "Focus", 2013, "DFG456");
+var auto3 = new Auto_1.Auto("Fiat", "Cronos", 2024, "HIJ789");
+var auto4 = new Auto_1.Auto("Ford", "Mustang", 2025, "AF058NC");
+var registro = new RegistroAutomotor_1.RegistroAutomotor();
+auto1.acelerar();
+auto1.frenar();
+auto1.acelerar();
+auto1.frenar();
+auto1.acelerar();
+auto1.info();
+auto2.acelerar();
+auto2.frenar();
+auto2.frenar();
+auto2.frenar();
+auto2.frenar();
+auto2.acelerar();
+auto2.info();
+auto3.acelerar();
+auto3.acelerar();
+auto3.acelerar();
+auto3.frenar();
+auto3.info();
+registro.mostrarRegistro();
+registro.agregAuto(auto1);
+registro.agregAuto(auto2);
+registro.agregAuto(auto3);
+registro.agregAuto(auto4);
+registro.mostrarRegistro();
+registro.buscarPatente("DFG456");
+registro.eliminarAuto("HIJ789");
+registro.mostrarRegistro();
+registro.actualizarAuto("ABC123", auto4);
+registro.mostrarRegistro();
