@@ -1,6 +1,4 @@
-# Ejercicios-POO
-
-# Ejercicios de Programación en TypeScript
+# Ejercicios de Programación Orientada a Objetos
 
 ## Descripción
 Este repositorio contiene una serie de ejercicios prácticos de programación orientada a objetos en TypeScript. Cada ejercicio implementa una clase con atributos y métodos que reflejan distintos conceptos de la programación.
@@ -8,7 +6,7 @@ Este repositorio contiene una serie de ejercicios prácticos de programación or
 ## Contenido
 Los ejercicios abordados en este repositorio incluyen:
 
-1. **Clase Auto** - Implementación de la estructura de un automóvil con variables internas y métodos.
+1. _**Clase Auto**_ - Implementación de la estructura de un automóvil con variables internas y métodos.
 2. **Clase Persona** - Creación de una persona con atributos y funcionalidades básicas.
 3. **Clase Televisor** - Desarrollo de un televisor con características como la función de silencio.
 4. **Clase Rectángulo** - Implementación de cálculos para área y perímetro.
